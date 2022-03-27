@@ -13,6 +13,9 @@
 		52EBE7DA27EF9EDB00A92164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBE7D827EF9EDB00A92164 /* Main.storyboard */; };
 		52EBE7DC27EF9EDC00A92164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EBE7DB27EF9EDC00A92164 /* Assets.xcassets */; };
 		52EBE7DF27EF9EDC00A92164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBE7DD27EF9EDC00A92164 /* LaunchScreen.storyboard */; };
+		52EBE7E727EFAE2C00A92164 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBE7E627EFAE2C00A92164 /* Petition.swift */; };
+		52F0696927F03BAD002B6315 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F0696827F03BAD002B6315 /* Petitions.swift */; };
+		52F0696B27F04423002B6315 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F0696A27F04423002B6315 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		52EBE7DB27EF9EDC00A92164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EBE7DE27EF9EDC00A92164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EBE7E027EF9EDC00A92164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EBE7E627EFAE2C00A92164 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		52F0696827F03BAD002B6315 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		52F0696A27F04423002B6315 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				52EBE7D227EF9EDB00A92164 /* AppDelegate.swift */,
 				52EBE7D427EF9EDB00A92164 /* SceneDelegate.swift */,
 				52EBE7D627EF9EDB00A92164 /* ViewController.swift */,
+				52F0696A27F04423002B6315 /* DetailViewController.swift */,
 				52EBE7D827EF9EDB00A92164 /* Main.storyboard */,
 				52EBE7DB27EF9EDC00A92164 /* Assets.xcassets */,
 				52EBE7DD27EF9EDC00A92164 /* LaunchScreen.storyboard */,
 				52EBE7E027EF9EDC00A92164 /* Info.plist */,
+				52EBE7E627EFAE2C00A92164 /* Petition.swift */,
+				52F0696827F03BAD002B6315 /* Petitions.swift */,
 			);
 			path = WhitehousePetitions;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52EBE7D727EF9EDB00A92164 /* ViewController.swift in Sources */,
+				52EBE7E727EFAE2C00A92164 /* Petition.swift in Sources */,
 				52EBE7D327EF9EDB00A92164 /* AppDelegate.swift in Sources */,
+				52F0696B27F04423002B6315 /* DetailViewController.swift in Sources */,
 				52EBE7D527EF9EDB00A92164 /* SceneDelegate.swift in Sources */,
+				52F0696927F03BAD002B6315 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
